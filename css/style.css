@@ -1,0 +1,210 @@
+body {
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    text-align: center;
+    color: #f2f2f2;
+    font-family: "Exo 2.0 Thin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.main__items {
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+}
+
+.main__items-wrapper {
+    width: 320px;
+    height: 480px;
+    margin-left: 80px;
+}
+
+.items-fuagra {
+    margin-left: 0;
+}
+
+.main__items-card {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 10px;
+    background: linear-gradient(135deg, transparent 30px, #1698d9 0px);
+}
+
+.main__items-wrapper:hover > .main__items-card {
+    background: linear-gradient(135deg, transparent 30px, #2ea8e6 0px);
+}
+
+.item-selected {
+    background: linear-gradient(135deg, transparent 30px, #d91667 0px);
+    border-radius: 10px;
+}
+
+.main__items-wrapper:hover > .item-selected  {
+    background: linear-gradient(135deg, transparent 30px, #e62e7a 0px);
+}
+
+.card-frame {
+    width: 312px;
+    height: 472px;
+    background: linear-gradient(135deg,transparent 29px,#fff 0);
+    border-radius: inherit;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card-cat {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-cat__text {
+    margin-left: 42px;
+    margin-bottom: 35px;
+    line-height: .8;
+    margin-bottom: 34px;
+}
+
+.card-cat__text-chicken {
+    margin-bottom: 0;
+}
+
+.card-cat__title {
+    color: #000;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    line-height: .7;
+    margin-bottom: 25px;
+}
+
+.card-cat__title span {
+    font-size: 24px;
+}
+
+.card-cat__subtitle {
+    color: #7e7e7e;
+    font-size: 16px;
+}
+
+.card-cat__describe {
+    color: #666;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card-cat__describe span {
+    color: #7e7e7e;
+}
+
+.card-cat__img {
+    margin-bottom: -98px;
+    margin-left: -30px;
+}
+
+.card-cat__weight {
+    height: 81px;
+    width: 81px;
+    background-color: #1698d9;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-text {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+.note-text__link {
+    text-decoration: none;
+    color: #1698d9;
+    border-bottom: 1px dashed;
+}
+
+.note-text__left {
+    margin-left: 80px;
+}
+
+.card-cat:hover > .card-cat__weight {
+    background-color: #2ea8e6;
+}
+
+.card-cat__weight_value {
+    color: #fff;
+    font-size: 42px;
+    margin: 0;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.card-cat__weight_value span {
+    font-size: 21px;
+} 
+
+.ellipse-selected {
+    background-color: #d91667;
+}
+
+.card-cat:hover > .ellipse-selected {
+    background-color: #e62e7a;
+}
+
+.disable {
+    background: linear-gradient(135deg, transparent 30px, rgb(179, 179, 179) 0px);
+}
+
+.disable .card-frame {
+    background: linear-gradient(135deg,transparent 29px,#fff 0);
+}
+
+.main__items-wrapper:hover > .disable {
+    background: linear-gradient(135deg, transparent 30px, rgb(179, 179, 179) 0px);
+}
+
+.disable .card-cat__text{
+    color: #b3b3b3;
+    opacity: .5;
+}
+
+.disable .card-cat__img {
+    opacity: .4;
+}
+
+.ellipse-disable {
+    background-color: #b3b3b3;
+}
+
+.card-cat:hover > .ellipse-disable {
+    background-color: #b3b3b3;
+}
+
+.notes-disable {
+    color: #f4f461;
+}

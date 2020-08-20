@@ -1,0 +1,41 @@
+@media screen and (max-width: 1040px) {
+    .container {
+        min-height: 100%;
+    }
+
+    .main {
+    justify-content: flex-start;
+    }
+
+    .main__items {
+        flex-wrap: wrap;
+    }
+
+    .items-chicken {
+        margin: 23px 0;
+    }
+    .note-text__left {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .main__items-wrapper {
+        max-width: 0;
+        margin-left: 0;
+    }
+
+    .main__items {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .main__items-container {
+        margin-bottom: 20px;
+    }
+
+    .items-chicken {
+        margin: 0;
+    }
+}

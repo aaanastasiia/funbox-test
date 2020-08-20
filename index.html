@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="main">
+            <h1 class="main__title">
+                Ты сегодня покормил кота?
+            </h1>
+            <div class="main__items">
+                <div class="main__items-container">
+                    <div class="main__items-wrapper items-fuagra">
+                        <div class="main__items-card" data-value="default">
+                            <div class="card-frame">
+                                <div class="card-cat">
+                                    <div class="card-cat__text">
+                                        <p class="card-cat__subtitle">Сказочное заморское яство</p>
+                                        <h3 class="card-cat__title">Нямушка<br><span>с фуа-гра</span></h3>
+                                        <div class="card-cat__desc">
+                                            <p class="card-cat__describe">10 <span>порций<br>мышь в подарок</span></p>
+                                        </div>
+                                    </div>
+                                    <img class="card-cat__img" src="assets/img/cat.png">
+                                    <div class="card-cat__weight">
+                                        <p class="card-cat__weight_value">0,5<br><span>кг</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__items-note">
+                        <p class="note-text" id="note-text" data-value-selected="Печень утки разварная с артишоками." data-value-disable="Печалька, с фуа-гра закончился.">Чего сидишь? Порадуй котэ, <a href="#" class="note-text__link">купи.</a></p>
+                    </div>
+                </div>
+                <div class="main__items-container">
+                    <div class="main__items-wrapper">
+                        <div class="main__items-card item-selected" data-value="selected">
+                            <div class="card-frame">
+                                <div class="card-cat">
+                                    <div class="card-cat__text">
+                                        <p class="card-cat__subtitle">Сказочное заморское яство</p>
+                                        <h3 class="card-cat__title">Нямушка<br><span>с рыбой</span></h3>
+                                        <div class="card-cat__desc">
+                                            <p class="card-cat__describe">40 <span>порций</span><br>2 <span>мыши в подарок</span></p>
+                                        </div>
+                                    </div>
+                                    <img class="card-cat__img" src="assets/img/cat.png">
+                                    <div class="card-cat__weight ellipse-selected">
+                                        <p class="card-cat__weight_value">2<br><span>кг</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__items-note">
+                        <p class="note-text note-text__left" data-value-selected="Головы щучьи с чесноком да свежайшая сёмгушка." data-value-disable="Печалька, с рыбой закончился.">Головы щучьи с чесноком да свежайшая сёмгушка.</a></p>
+                    </div>
+                </div>
+                <div class="main__items-container">
+                    <div class="main__items-wrapper items-chicken">
+                        <div class="main__items-card disable" data-value="disable">
+                            <div class="card-frame">
+                                <div class="card-cat">
+                                    <div class="card-cat__text card-cat__text-chicken">
+                                        <p class="card-cat__subtitle">Сказочное заморское яство</p>
+                                        <h3 class="card-cat__title">Нямушка<br><span>с курой</span></h3>
+                                        <div class="card-cat__desc">
+                                            <p class="card-cat__describe">100 <span>порций</span><br>5 <span>мышей в подарок<br>заказчик доволен</span></p>
+                                        </div>
+                                    </div>
+                                    <img class="card-cat__img" src="assets/img/cat.png">
+                                    <div class="card-cat__weight ellipse-disable">
+                                        <p class="card-cat__weight_value">5<br><span>кг</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__items-note">
+                        <p class="note-text note-text__left notes-disable" data-value-selected="Филе из цыплят с трюфелями в бульоне." data-value-disable="Печалька, с курой закончился.">Филе из цыплят с трюфелями в бульоне.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="./index.js" charset="utf-8"></script>
+</body>
+</html>
