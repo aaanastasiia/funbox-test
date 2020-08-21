@@ -66,7 +66,7 @@ function buyClick () {
                     text[i].textContent = "Сказочное заморское яство";
                     text[i].style.color = "#7e7e7e";
                 });
-                nnote.textContent = note.dataset.valueSelected;
+                note.textContent = note.dataset.valueSelected;
             })
         });
 };
